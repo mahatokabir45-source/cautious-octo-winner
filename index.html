@@ -2,13 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Hello from Kabir</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Heart Broken</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffe6e6, #e6f0ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 80%;
+    }
+
+    h1 {
+      color: #cc0000;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #333;
+      font-size: 1em;
+      margin-top: 0;
+    }
+
+    .fade {
+      animation: fadeIn 3s ease-in;
+    }
+
+    @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+  </style>
 </head>
 <body>
-  <h1>💖 Hello, it works!</h1>
-  <p>Your GitHub Pages site is now live.</p>
+  <div class="card fade">
+    <h1>💔 Heart Broken</h1>
+    <p>I'm sorry to hear that you're feeling this way.</p>
+    <p>It's important to talk to someone who can help you.</p>
+  </div>
 </body>
 </html>
+
 
 
 
